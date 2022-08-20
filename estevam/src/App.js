@@ -2,7 +2,11 @@ import { lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { globalCss } from "@stitches/react";
 
+const About = lazy(() => import("./pages/about"));
+const Courses = lazy(() => import("./pages/courses"));
 const Home = lazy(() => import("./pages/home"));
+const MentoringClasses = lazy(() => import("./pages/mentoring-classes"));
+const Projects = lazy(() => import("./pages/projects"));
 
 const globalStyles = globalCss({
   "*": { margin: 0, padding: 0, boxSizing: "border-box" },
@@ -20,24 +24,13 @@ function App() {
   globalStyles();
   return (
     <Routes>
-      <Route path="home" element={<Home />} />
+      <Route path="about" element={<About />} />
+      <Route path="courses" element={<Courses />} />
+      <Route path="/" element={<Home />} />
+      <Route path="mentoring-classes" element={<MentoringClasses />} />
+      <Route path="projects" element={<Projects />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 

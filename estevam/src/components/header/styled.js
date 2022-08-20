@@ -3,19 +3,19 @@ import { styled } from "../../theme";
 export const Container = styled("div", {
   marginTop: 0,
   width: "100vw",
-  height: "10vh",
+  height: "8vh",
   color: "$white",
-  backgroundColor: "red",
+  // backgroundColor: "red",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
 });
 
 export const Nav = styled("div", {
-  backgroundColor: "green",
+  // backgroundColor: "green",
   width: "70vw",
   height: "5rem",
-  marginTop: "5rem",
+  // marginTop: "2rem",
   display: "flex",
   flexDirection: "row",
   alignItems: "center",
@@ -40,4 +40,41 @@ export const LinkList = styled("a", {
     backgroundColor: "$gray500",
     color: "$gray200",
   },
+});
+
+export const SocialLogos = styled("div", {
+  // maxWidth: "20rem",
+  width: "30rem",
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "space-between",
+  marginLeft: "1.5rem",
+  // flexWrap: "wrap",
+
+  // @media screen and (min-width: 480px) {
+  //   margin-bottom: 50px;
+  // }
+
+  // @media screen and (min-width: 768px) {
+  //   position: absolute;
+  //   width: 300px;
+  //   right: 46px;
+  //   margin-top: 140px;
+  // }
+
+  // @media screen and (min-width: 1025px) {
+  //   position: absolute;
+  //   margin-top: 12rem;
+  //   right: 228px;
+  // }
+});
+
+export const SocialItem = styled("div", {
+  margin: "0 0.75rem",
+  cursor: "pointer",
+});
+
+export const Link = styled("a", {
+  color: "$white",
 });
