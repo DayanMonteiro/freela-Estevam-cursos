@@ -2,8 +2,8 @@ import { styled } from "../../theme";
 
 export const Container = styled("div", {
   marginTop: 0,
-  width: "100vw",
-  height: "8vh",
+  width: "100%",
+  height: "4rem",
   color: "$white",
   // backgroundColor: "red",
   display: "flex",
@@ -13,8 +13,8 @@ export const Container = styled("div", {
 
 export const Nav = styled("div", {
   // backgroundColor: "green",
-  width: "70vw",
-  height: "5rem",
+  width: "70%",
+  height: "4rem",
   // marginTop: "2rem",
   display: "flex",
   flexDirection: "row",
@@ -25,7 +25,7 @@ export const Nav = styled("div", {
 export const LinkList = styled("a", {
   width: "100%",
   height: "100%",
-  fontSize: "$lg",
+  fontSize: "$sm",
   textDecoration: "none",
   listStyle: "none",
   cursor: "pointer",

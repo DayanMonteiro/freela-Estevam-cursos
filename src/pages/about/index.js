@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "../../components/header";
 import * as S from "./styled";
 import PromoAbout from "../../assets/img/promo5.JPG";
 
 const About = () => {
   return (
     <S.Container>
-      <Header />
       <S.Content>
         <S.AboutText>
           <S.ContainerText>
@@ -85,9 +83,17 @@ const About = () => {
               carreiras e negócios.
             </S.Paragraph>
             <S.Paragraph>
-              Em 2021 inaugurou o primeiro escritório virtual (@murbmusic), de
-              agenciamento e gestão de carreiras, para novos artistas e bandas
-              em sua cidade que será atuante em toda região Sul-Fluminense
+              Em 2021 inaugurou o primeiro escritório virtual{" "}
+              <S.LinkDirect
+                href={"https://www.instagram.com/murbmusic/"}
+                target={"_blank"}
+                passHref
+              >
+                murbmusic
+              </S.LinkDirect>
+              , de agenciamento e gestão de carreiras, para novos artistas e
+              bandas em sua cidade que será atuante em toda região
+              Sul-Fluminense
             </S.Paragraph>
           </S.ContainerText>
           <S.ImageAbout src={PromoAbout} />

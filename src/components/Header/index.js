@@ -26,7 +26,7 @@ const Header = () => {
             target={"_blank"}
             passHref
           >
-            <FaFacebookF size="3.5rem" />
+            <FaFacebookF size="2rem" />
           </S.Link>
         </S.SocialItem>
         <S.SocialItem>
@@ -35,7 +35,7 @@ const Header = () => {
             target={"_blank"}
             passHref
           >
-            <FaInstagram size="3.5rem" />
+            <FaInstagram size="2rem" />
           </S.Link>
         </S.SocialItem>
         <S.SocialItem>
@@ -46,7 +46,7 @@ const Header = () => {
             target={"_blank"}
             passHref
           >
-            <FaTwitter size="3.5rem" />
+            <FaTwitter size="2rem" />
           </S.Link>
         </S.SocialItem>
         <S.SocialItem>
@@ -57,7 +57,7 @@ const Header = () => {
             target={"_blank"}
             passHref
           >
-            <FaWhatsapp size="3.5rem" />
+            <FaWhatsapp size="2rem" />
           </S.Link>
         </S.SocialItem>
       </S.SocialLogos>

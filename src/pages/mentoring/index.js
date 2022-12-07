@@ -1,16 +1,14 @@
 import React from "react";
-import Header from "../../components/header";
-import FrontCoverImage1 from "../../assets/img/front-cover-murb.png";
-import FrontCoverImage from "../../assets/img/image17.png";
+// import FrontCoverImage1 from "../../assets/img/front-cover-murb.png";
+// import FrontCoverImage from "../../assets/img/image17.png";
 // import Banner from "../../assets/img/public.png";
 
-import Banner from "./components/Banner";
+// import Banner from "./components/Banner";
 import * as S from "./styled";
 
 const Mentoring = () => {
   return (
     <S.Container>
-      <Header />
       {/* <Banner /> */}
       <S.Content>
         {/* <S.Banner>
@@ -70,6 +68,7 @@ const Mentoring = () => {
           </S.ContainerImage>
         </S.Presentation>
       </S.Content>
+      {/* <Footer /> */}
     </S.Container>
 
     // <S.Container>

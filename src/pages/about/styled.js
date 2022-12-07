@@ -8,6 +8,8 @@ export const Content = styled("div", {
   justifyContent: "center",
   alignItems: "center",
 
+  paddingBottom: "3rem",
+
   backgroundColor: "$grey700",
 });
 
@@ -40,4 +42,14 @@ export const Paragraph = styled("p", {
 export const ImageAbout = styled("img", {
   width: "40rem",
   marginLeft: "5rem",
+});
+
+export const LinkDirect = styled("a", {
+  color: "$white",
+  fontSize: "$sm",
+
+  "&:hover": {
+    //  backgroundColor: "$grey500",
+    color: "$primary200",
+  },
 });
